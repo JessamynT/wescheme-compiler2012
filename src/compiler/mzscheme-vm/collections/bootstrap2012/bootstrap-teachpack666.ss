@@ -8,12 +8,12 @@
 ;; SETTINGS 
 (define WIDTH 640)
 (define HEIGHT 480)
-(define EXPLOSION-COLOR "gray")
+(define EXPLOSION-COLOR "red")
 (define TITLE-COLOR (box "white"))
 (define BACKGROUND (box (rectangle WIDTH HEIGHT "solid" "black")))
 (define (spacing) (random 200))
 (define *target-increment* 20)
-(define *danger-increment* -50)
+(define *danger-increment* -20)
 (define LOSS-SCORE 0)
 
 ;; Globals available to the students:
